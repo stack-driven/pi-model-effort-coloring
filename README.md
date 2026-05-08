@@ -1,27 +1,27 @@
-# munich-pi
+# pi-model-effort-coloring
 
-A Git-installable collection of Pi extensions and resources.
+![Pi model effort coloring preview](./assets/pi-model-effort-coloring-preview.svg)
 
-Currently includes one extension package: `model-effort-colors`.
+Pi extension that colors the current model name and thinking/effort level in Pi’s footer without changing the footer layout.
 
 ## Installation
 
 From GitHub:
 
 ```bash
-pi install git:github.com/<user>/munich-pi
+pi install git:github.com/<user>/pi-model-effort-coloring
 ```
 
 From GitLab or another Git URL:
 
 ```bash
-pi install https://gitlab.com/<user>/munich-pi
+pi install https://gitlab.com/<user>/pi-model-effort-coloring
 ```
 
 From a local checkout:
 
 ```bash
-pi install /absolute/path/to/munich-pi
+pi install /absolute/path/to/pi-model-effort-coloring
 ```
 
 Then restart your Pi session. If the package is already loaded in an interactive session, try:
@@ -32,15 +32,9 @@ Then restart your Pi session. If the package is already loaded in an interactive
 
 If the footer does not update after `/reload`, quit and start Pi again.
 
-## Packages
+## Extension
 
-### model-effort-colors
-
-![munich-pi model effort colors preview](./assets/model-effort-colors-preview.svg)
-
-Pi extension that colors the current model name and thinking/effort level in Pi’s footer while preserving Pi’s built-in footer layout.
-
-It adds color accents to:
+`model-effort-colors` adds color accents to:
 
 - current model/provider name
 - thinking/effort level: `minimal`, `low`, `medium`, `high`, `xhigh`

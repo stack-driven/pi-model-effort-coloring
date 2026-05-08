@@ -1,5 +1,5 @@
 {
-  "name": "munich-pi",
+  "name": "pi-model-effort-coloring",
   "version": "0.1.0",
   "description": "Pi extension that colors the current model name and thinking/effort level in the footer without changing layout.",
   "keywords": [

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
-  <title id="title">munich-pi model effort colors preview</title>
+  <title id="title">pi-model-effort-coloring preview</title>
   <desc id="desc">Preview of Pi footer colors for model providers and thinking effort levels.</desc>
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
@@ -18,12 +18,12 @@
 
   <rect width="960" height="380" rx="18" fill="url(#bgGrad)"/>
 
-  <text x="32" y="42" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700">munich-pi</text>
+  <text x="32" y="42" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700">pi-model-effort-coloring</text>
   <text x="32" y="67" fill="#8b949e" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Color accents for Pi’s current model and thinking / effort level — footer layout unchanged</text>
 
   <g filter="url(#softShadow)">
     <rect x="32" y="90" width="896" height="112" rx="10" fill="#0f131a" stroke="#30363d"/>
-    <text x="56" y="121" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">~/dev/munich-pi (main)</text>
+    <text x="56" y="121" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">~/dev/pi-model-effort-coloring (main)</text>
     <text x="56" y="147" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">↑18.4k ↓2.1k R4.2k $0.042 12.7%/200k</text>
     <text x="56" y="176" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">(anthropic)</text>
     <text x="172" y="176" fill="#DD7B5F" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">claude-sonnet</text>
