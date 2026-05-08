@@ -1,0 +1,21 @@
+{
+  "name": "munich-pi",
+  "version": "0.1.0",
+  "description": "Pi extension that colors the current model name and thinking/effort level in the footer without changing layout.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "footer",
+    "model",
+    "thinking"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
