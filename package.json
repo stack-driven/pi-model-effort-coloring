@@ -9,6 +9,20 @@
     "model",
     "thinking"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stack-driven/pi-model-effort-coloring.git"
+  },
+  "homepage": "https://github.com/stack-driven/pi-model-effort-coloring#readme",
+  "bugs": {
+    "url": "https://github.com/stack-driven/pi-model-effort-coloring/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "extensions",
+    "assets",
+    "README.md"
+  ],
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",
     "@earendil-works/pi-tui": "*"
