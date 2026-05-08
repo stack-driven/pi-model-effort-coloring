@@ -1,69 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
   <title id="title">munich-pi model effort colors preview</title>
   <desc id="desc">Preview of Pi footer colors for model providers and thinking effort levels.</desc>
   <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#101419"/>
+    </linearGradient>
     <linearGradient id="xhigh" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8E6EDB"/>
       <stop offset="100%" stop-color="#B088F8"/>
     </linearGradient>
-    <linearGradient id="max" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#E06058"/>
-      <stop offset="25%" stop-color="#F8C038"/>
-      <stop offset="50%" stop-color="#50B868"/>
-      <stop offset="75%" stop-color="#20B8CD"/>
-      <stop offset="100%" stop-color="#A078E0"/>
-    </linearGradient>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.32"/>
     </filter>
-    <style>
-      .bg { fill: #0d1117; }
-      .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
-      .muted { fill: #8b949e; font: 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .label { fill: #c9d1d9; font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 600; }
-      .title { fill: #f0f6fc; font: 24px ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 700; }
-      .subtitle { fill: #8b949e; font: 15px ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .footer { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
-      .mono { font: 17px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-      .small { font: 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #8b949e; }
-    </style>
   </defs>
 
-  <rect class="bg" width="960" height="300" rx="18"/>
-  <text class="title" x="32" y="42">munich-pi</text>
-  <text class="subtitle" x="32" y="67">Footer colors for current model and thinking / effort level — layout unchanged</text>
+  <rect width="960" height="380" rx="18" fill="url(#bgGrad)"/>
+
+  <text x="32" y="42" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700">munich-pi</text>
+  <text x="32" y="67" fill="#8b949e" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Color accents for Pi’s current model and thinking / effort level — footer layout unchanged</text>
 
   <g filter="url(#softShadow)">
-    <rect class="footer" x="32" y="92" width="896" height="68" rx="10"/>
-    <text class="mono" x="54" y="121" fill="#8b949e">~/dev/munich-pi (main)</text>
-    <text class="mono" x="54" y="145" fill="#8b949e">↑18.4k ↓2.1k R4.2k $0.042 12.7%/200k</text>
-    <text class="mono" x="675" y="145" fill="#8b949e">(anthropic) </text>
-    <text class="mono" x="790" y="145" fill="#DD7B5F">claude-sonnet</text>
-    <text class="mono" x="54" y="182" fill="#8b949e">Thinking level examples: </text>
-    <text class="mono" x="278" y="182" fill="#F8C038">low</text>
-    <text class="mono" x="318" y="182" fill="#8b949e"> · </text>
-    <text class="mono" x="346" y="182" fill="#50B868">medium</text>
-    <text class="mono" x="426" y="182" fill="#8b949e"> · </text>
-    <text class="mono" x="454" y="182" fill="#A8A8E0">high</text>
-    <text class="mono" x="506" y="182" fill="#8b949e"> · </text>
-    <rect x="532" y="166" width="62" height="22" rx="4" fill="#241B31"/>
-    <text class="mono" x="540" y="182" fill="url(#xhigh)">xhigh</text>
-    <text class="mono" x="604" y="182" fill="#8b949e"> · </text>
-    <text class="mono" x="632" y="182" fill="url(#max)">max</text>
+    <rect x="32" y="90" width="896" height="112" rx="10" fill="#0f131a" stroke="#30363d"/>
+    <text x="56" y="121" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">~/dev/munich-pi (main)</text>
+    <text x="56" y="147" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">↑18.4k ↓2.1k R4.2k $0.042 12.7%/200k</text>
+    <text x="56" y="176" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">(anthropic)</text>
+    <text x="172" y="176" fill="#DD7B5F" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">claude-sonnet</text>
+    <text x="304" y="176" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">•</text>
+    <rect x="328" y="158" width="72" height="25" rx="5" fill="#241B31" stroke="#4c356d"/>
+    <text x="340" y="176" fill="url(#xhigh)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">xhigh</text>
   </g>
 
-  <g transform="translate(32, 210)">
-    <text class="label" x="0" y="0">Provider accents</text>
-    <g transform="translate(0, 18)">
-      <rect x="0" y="0" width="70" height="14" rx="7" fill="#DD7B5F"/><text class="small" x="0" y="34">Claude</text>
-      <rect x="96" y="0" width="70" height="14" rx="7" fill="#10A37F"/><text class="small" x="96" y="34">OpenAI</text>
-      <rect x="192" y="0" width="70" height="14" rx="7" fill="#4285F4"/><text class="small" x="192" y="34">Gemini</text>
-      <rect x="288" y="0" width="70" height="14" rx="7" fill="#F55036"/><text class="small" x="288" y="34">Groq</text>
-      <rect x="384" y="0" width="70" height="14" rx="7" fill="#FF7000"/><text class="small" x="384" y="34">Mistral</text>
-      <rect x="480" y="0" width="70" height="14" rx="7" fill="#4D6BFE"/><text class="small" x="480" y="34">DeepSeek</text>
-      <rect x="576" y="0" width="70" height="14" rx="7" fill="#0866FF"/><text class="small" x="576" y="34">Llama</text>
-      <rect x="672" y="0" width="70" height="14" rx="7" fill="#8B5CF6"/><text class="small" x="672" y="34">OpenRouter</text>
-      <rect x="768" y="0" width="70" height="14" rx="7" fill="#FC6D26"/><text class="small" x="768" y="34">GitLab Duo</text>
-    </g>
+  <text x="32" y="238" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">Thinking / effort accents</text>
+  <g transform="translate(32, 255)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700">
+    <rect x="0" y="0" width="132" height="48" rx="9" fill="#161b22" stroke="#30363d"/>
+    <text x="24" y="29" fill="#9CA3AF">minimal</text>
+
+    <rect x="158" y="0" width="104" height="48" rx="9" fill="#161b22" stroke="#30363d"/>
+    <text x="194" y="29" fill="#F8C038">low</text>
+
+    <rect x="288" y="0" width="132" height="48" rx="9" fill="#161b22" stroke="#30363d"/>
+    <text x="324" y="29" fill="#50B868">medium</text>
+
+    <rect x="446" y="0" width="104" height="48" rx="9" fill="#161b22" stroke="#30363d"/>
+    <text x="480" y="29" fill="#A8A8E0">high</text>
+
+    <rect x="576" y="0" width="128" height="48" rx="9" fill="#241B31" stroke="#4c356d"/>
+    <text x="618" y="29" fill="url(#xhigh)">xhigh</text>
+  </g>
+
+  <text x="32" y="335" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">Provider accents</text>
+  <g transform="translate(32, 351)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">
+    <rect x="0" y="0" width="70" height="14" rx="7" fill="#DD7B5F"/><text x="0" y="26" fill="#8b949e">Claude</text>
+    <rect x="96" y="0" width="70" height="14" rx="7" fill="#10A37F"/><text x="96" y="26" fill="#8b949e">OpenAI</text>
+    <rect x="192" y="0" width="70" height="14" rx="7" fill="#4285F4"/><text x="192" y="26" fill="#8b949e">Gemini</text>
+    <rect x="288" y="0" width="70" height="14" rx="7" fill="#F55036"/><text x="288" y="26" fill="#8b949e">Groq</text>
+    <rect x="384" y="0" width="70" height="14" rx="7" fill="#FF7000"/><text x="384" y="26" fill="#8b949e">Mistral</text>
+    <rect x="480" y="0" width="70" height="14" rx="7" fill="#4D6BFE"/><text x="480" y="26" fill="#8b949e">DeepSeek</text>
+    <rect x="576" y="0" width="70" height="14" rx="7" fill="#0866FF"/><text x="576" y="26" fill="#8b949e">Llama</text>
+    <rect x="672" y="0" width="70" height="14" rx="7" fill="#8B5CF6"/><text x="672" y="26" fill="#8b949e">Router</text>
+    <rect x="768" y="0" width="70" height="14" rx="7" fill="#FC6D26"/><text x="768" y="26" fill="#8b949e">GitLab</text>
   </g>
 </svg>
