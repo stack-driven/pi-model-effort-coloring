@@ -1,21 +1,21 @@
 # pi-model-effort-coloring
 
-<img width="479" height="138" alt="image" src="https://github.com/user-attachments/assets/4608da89-4cc0-415c-8435-91368f22418f" />
+<img width="479" height="138" alt="Pi model effort coloring preview" src="https://raw.githubusercontent.com/stack-driven/pi-model-effort-coloring/main/assets/pi-model-effort-coloring-preview.svg" />
 
 Pi extension that colors the current model name and thinking/effort level in Pi’s footer without changing the footer layout.
 
 ## Installation
 
+From npm (recommended):
+
+```bash
+pi install npm:pi-model-effort-coloring
+```
+
 From GitHub:
 
 ```bash
-pi install git:github.com/<user>/pi-model-effort-coloring
-```
-
-From GitLab or another Git URL:
-
-```bash
-pi install https://gitlab.com/<user>/pi-model-effort-coloring
+pi install git:github.com/stack-driven/pi-model-effort-coloring
 ```
 
 From a local checkout:
