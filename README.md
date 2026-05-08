@@ -1,6 +1,6 @@
 # pi-model-effort-coloring
 
-![Pi model effort coloring preview](./assets/pi-model-effort-coloring-preview.svg)
+<img width="479" height="138" alt="image" src="https://github.com/user-attachments/assets/4608da89-4cc0-415c-8435-91368f22418f" />
 
 Pi extension that colors the current model name and thinking/effort level in Pi’s footer without changing the footer layout.
 
