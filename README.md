@@ -1,6 +1,6 @@
 # pi-model-effort-coloring
 
-<img width="479" height="138" alt="Pi model effort coloring preview" src="https://raw.githubusercontent.com/stack-driven/pi-model-effort-coloring/main/assets/pi-model-effort-coloring-preview.png" />
+<img width="479" height="219" alt="Pi model effort coloring demo" src="https://raw.githubusercontent.com/stack-driven/pi-model-effort-coloring/main/assets/screenrecording.gif" />
 
 Pi extension that colors the current model name and thinking/effort level in Pi’s footer without changing the footer layout.
 
