@@ -1,6 +1,6 @@
 {
   "name": "pi-model-effort-coloring",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Pi extension that colors the current model name and thinking/effort level in the footer without changing layout.",
   "keywords": [
     "pi-package",
